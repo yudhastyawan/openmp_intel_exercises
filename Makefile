@@ -1,4 +1,4 @@
-fname=05_mandel
+fname=07_prod_cons
 
 all:
 	gcc -xc -Wall -g -fopenmp $(fname).c -lm -o $(fname).out
